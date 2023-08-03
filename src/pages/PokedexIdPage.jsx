@@ -37,7 +37,7 @@ const pokeBaseStat = 300
       <Link to="/">
         <div className="header-logo">
             <img
-              src="/img/pokedex.png"
+              src="public/img/pokedex.png"
               alt="Pokedex"
             />
             </div>
