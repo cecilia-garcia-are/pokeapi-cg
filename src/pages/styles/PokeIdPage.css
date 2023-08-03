@@ -1,0 +1,504 @@
+.poke-container {
+    margin: auto auto;
+    margin-top: 10em;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 0.7em;
+    box-shadow: 1px 2px 10px rgba(194, 193, 193, 0.445);
+}
+
+.mov-container {
+    margin: auto auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-top: .5em;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 0.7em;
+    box-shadow: 1px 2px 10px rgba(194, 193, 193, 0.445);
+}
+
+
+  /*HEADER*/
+  
+  .header-pokedex{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    top: 0;
+    left: 0;
+    background-color: #DD1A1A;
+    width: 100%;
+    height: 8.5em;
+  }
+  
+  .header-logo img{
+    display: block;
+    width: 80%;
+    max-width: 676px;
+    margin: auto auto;
+    padding-top: 2em;
+}
+ 
+.headerblack{
+    background-color: black;
+    width: 100%;
+    height: 3.5em;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+  
+.header__circle-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 1em;
+    transform: translateY(-60%);
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background: white;
+    border: 8px solid #000000;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+  
+.header__circle-inner{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: #212121;
+    border: 9px solid #000000;
+}
+
+/*ID*/
+
+
+.id__form{
+    display: flex;
+    margin-top: .7em;
+    align-content: center;
+    padding: .5em;
+    width: 100px;
+    max-width: 100%;
+    height: 60px;
+    margin: 3em auto;
+    box-shadow: 0px 2px 16px 0px #00000026;
+    
+}
+
+.id__input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+    max-width: 100%;
+    text-align:  center;
+    color: inherit;
+}
+
+.id__form .id__input{
+   font-size: 1.5em;
+   font-family: inherit;
+}
+
+.id__input::-webkit-inner-spin-button,
+.id__input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    
+}
+
+.id__input {
+        -moz-appearance: textfield;
+        appearance: textfield;
+        background: transparent;
+}
+
+/*INFORMACION CARD*/
+
+.card__header {
+    background-color: #999;
+    min-height: 100px;
+    width: 100%;
+    position: relative;
+    border-radius: 0.7em 0.7em 0 0;
+}
+
+.card__imge {
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    width: 60%;
+    max-width: 350px;
+}
+
+.title__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.3em;
+    font-weight: 500;
+    margin-top: .5em;
+}
+
+.card__measures {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 10em;
+    margin: auto auto;
+    justify-items: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.card__weight-title,
+.card__height-title{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+.card__weight-value,
+.card__height-value{
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.card__type__title,
+.card__abilities-title {
+    text-align: center;
+    margin-top: 1.5em;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.card__type-container{
+    width:40%;
+    margin-left: 1em;
+}
+
+.card__abilities-container {
+    width: 60%;
+    margin-right: 1em;
+}
+
+.card__type {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    padding: .5em;
+    font-weight: 400;
+    
+}
+
+.card__abilities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5em;
+    padding: .5em;
+    font-weight: 400;
+}
+
+.card__type-abilities {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+.card__type-list,
+.card__abilities-list {
+    text-transform: capitalize;
+    padding: .35em;
+    border-radius: 0.5em;
+    border: 1px solid #D3D3D3;
+}
+
+.card__abilities-list {
+    padding: .5em;
+    border: 1px solid #D3D3D3;
+}
+
+.card__stats-title {
+    font-weight: 600;
+    margin-left: 1.2em;
+    margin-top: 1em;
+    font-size: 1.5em;
+    
+}
+
+.card__stats-list {
+    text-transform: uppercase;
+    padding: .5em;
+    font-weight: 500;
+}
+
+.card__stats-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .3em;
+}
+
+.card__stat-container {
+    background: #F6F6F6;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #030706;
+}
+
+.card__stat-value {
+    background: linear-gradient(90deg, #000000 -2.25%, #ff0000 133.18%);
+    height: 28px;
+    max-width: 500px;
+}
+
+
+/*MOV*/
+
+.card__mov-title{
+    font-weight: 600;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #302F2F;
+}
+
+.card__mov {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    gap: .5em;
+    justify-content: center;
+    padding: 1em;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+.card__mov-list {
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 0.5em;
+    padding: .5em;
+    width: fit-content;
+    font-size: 16px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 768px ){
+
+    .poke-container,
+    .mov-container {
+        max-width: 700px;
+    }
+
+    .card__header{
+        min-height: 200px;
+    }
+
+    .card__imge {
+        transform: translateY(-38%);
+        left: 25%;
+    }
+
+    .title__name {
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    .card__weight-title,
+    .card__height-title{
+        font-size: 20px;
+    }
+
+    .card__weight-value,
+    .card__height-value{
+    font-size: 25px;
+    }
+
+    .card__type__title,
+    .card__abilities-title {
+    font-weight: 600;
+    font-size: 25px;
+    }
+
+    .card__type,
+    .card__abilities {
+    font-weight: 300;
+    font-size: 20px;
+    }
+
+    .card__stats-title{
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+    .card__stats-text {
+        font-size: 20px;
+    }
+
+    .card__stats-list {
+        margin: 1em;
+        transition: transform 180ms easy;
+    }
+    
+
+    .card__mov-title{
+        font-size: 35px;
+    }
+
+    .card__mov-list {
+        padding: 1.2em;
+        font-size: 16px;
+        transition: transform 180ms easy;
+    }
+    
+
+    .id__form,
+    .id__input{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+}
+
+
+@media screen and (min-width: 1080px ){
+
+    .poke-container,
+    .mov-container{
+        max-width: 1000px;
+    }
+
+    .card__imge{
+        left: 30%;
+    }
+
+    .id__form,
+    .id__input{
+        max-width: 200px;
+    }
+
+}
+
+
+
+/*COLORES TIPOS*/
+
+/*FIRE*/
+
+.fire-background {
+    background: var(--fire-color);
+}
+
+/*GRASS*/
+
+.grass-background {
+    background: var(--grass-border);
+}
+
+/*WATER*/
+
+.water-background {
+    background: var(--water-color);
+}
+
+/*BUG*/
+
+.bug-background {
+    background: var(--bug-color);
+}
+
+/*NORMAL*/
+
+.normal-background {
+    background: var(--normal-color);
+}
+
+
+/*FIGHTING*/
+
+.fighting-background {
+    background: var(--fighter-border);
+}
+
+
+/*POISON*/
+.poison-background{
+    background: var(--poison-color);
+}
+
+/*ELECTRIC*/
+
+
+.electric-background {
+    background: var(--electric-border);
+}
+
+/*GROUND*/
+.ground-background {
+    background: var(--ground-color);
+}
+
+
+/*FAIRY*/
+
+.fairy-background {
+    background: var(--fairy-color);
+}
+
+
+/*ROCK*/
+
+.rock-background {
+    background: var(--rock-color);
+}
+
+
+/*PSYCHIC*/
+
+.psychic-background {
+    background: var(--psychic-color);
+}
+
+
+/*GHOST*/
+
+.ghost-background {
+    background: var(--ghost-color);
+}
+
+/*ICE*/
+
+.ice-background {
+    background: var(--ice-color);
+}
+
+/*DRAGON*/
+.dragon-background {
+    background: var(--dragon-color);
+}
+
+/*DARK*/
+
+.dark-background {
+    background: var(--dark-color);
+}
+
+
+/*STEEL*/
+
+.steel-backgound {
+    background: var(--steel-color);
+}
+
+/*flying*/
+
+.flying-backgound {
+    background: var(--flying-color);
+}
+

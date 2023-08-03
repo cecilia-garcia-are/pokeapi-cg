@@ -1,0 +1,24 @@
+.content-select select{
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    color: black;
+    padding: .4em 1.4em .3em .8em;
+    width: 170px;
+    max-width: 100%; 
+    margin-left: 25px;
+    margin-block-start: 20px;
+    box-shadow: 1px 2px 10px gray;
+    border-radius: 5px;
+    border: none;
+    
+ 
+}
+
+.content-select select:hover{
+	background: #fc0000ad;
+}
