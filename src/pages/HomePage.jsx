@@ -27,7 +27,7 @@ const HomePage = () => {
   return (
     <div className="home-container">
       <div className="home-tittle" >
-      <img  src="public/img/pokedex.png" alt="" />
+      <img  src="/img/pokedex.png" alt="" />
       </div>
       <h2 className="home-trianer">Hi trainer!</h2>
       <p className="home-message">To start with the app, give me your name trainer</p>

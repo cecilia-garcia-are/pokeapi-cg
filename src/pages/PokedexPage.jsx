@@ -65,7 +65,7 @@ const cbFilter = poke => poke.name.includes(inputValue)
       <Link to="/">
         <div className="header-logo">
             <img
-              src="public/img/pokedex.png"
+              src="/img/pokedex.png"
               alt="Pokedex"
             />
             </div>
