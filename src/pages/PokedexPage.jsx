@@ -89,19 +89,21 @@ const cbFilter = poke => poke.name.includes(inputValue)
       setSelectValue={setSelectValue}
       setInputValue={setInputValue}
       selectValue={selectValue}
+      
       />
      </div>
       
       <div className="pokecard__container">
         {
           pokemons?.results
+          .slice(indexOfFirstPoke, indexOfLastPoke)
           .filter (cbFilter)
           .map((poke) => 
             <PokemonCard
             key={poke.url}
             url={poke.url}
             />)
-            .slice(indexOfFirstPoke, indexOfLastPoke)
+            
         }
         
        </div>

@@ -74,6 +74,10 @@
     
 }
 
+.second_input:hover{
+    background-color: #d6d4d4a1;
+}
+
 .poke_buttom {
     background-color: red;
     color: white;
@@ -84,6 +88,13 @@
     
 }
 
+.poke_buttom:hover{
+    background-color: #b61a1a;
+}
+
+.poke_buttom:active{
+    background-color: black;
+}
 
 
 
